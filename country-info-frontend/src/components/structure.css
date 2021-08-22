@@ -13,9 +13,9 @@
     --very-light-gray: hsl(0, 0%, 98%);
 
     /* Element Vars */
-    --text-color: var(--very-dark-blue);
+    --text-color: var(--very-dark-blue); 
     --background-color: var(--very-light-gray);
-    --element-color: white; /* Refers to nav bar, country cards, etc.
+    --element-color: white; /* Refers to nav bar, country cards, etc. */
 
 
     /* Spacing Custom Vars */

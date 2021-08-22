@@ -17,8 +17,9 @@
 
 .navbar-button {
     margin-left: auto;
-    height: 50%;
-    width: 20%;
+    height: 25%;
+    width: 30%;
+    text-align: center;
 }
 
 
@@ -28,5 +29,5 @@
 
 #navbar-icon {
     position: relative;
-    padding-left: 2rem;
+    margin-right: 0.5rem;
 }

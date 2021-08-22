@@ -8,7 +8,7 @@ class RegionFilter extends Component {
     }
     render() { 
         return ( 
-            <select name="region" className="region-filter">
+            <select name="region" className="region-filter shadow">
                 <option value="" defaultValue>Filter By Region</option>
                 <option value="Africa">Africa</option>
                 <option value="Africa">America</option>

@@ -7,14 +7,18 @@
     width: 80%;
     height: 2rem;
     left: 10%;
-    margin-bottom: 1rem;
-
+    margin-bottom: 3rem;
+    align-content: center;
+    justify-content: center;
 }
 
 .search-form > * {
     outline: 0;
     border: 0;
-    padding-left: 1%;
+    padding-left: 0.5rem;
+    height: 2rem;
+    background-color: var(--element-color);
+    color: var(--text-color);
 }
 
 /* Search Bar */
@@ -23,12 +27,27 @@
     position: relative;
     border-radius: 0.5rem;
     left: 4%;
+    width: 20rem;
+    align-self: flex-start;
 }
+
 
 /* Region Filter */
 
 .region-filter {
     position: relative;
-    margin-left: auto;
     border-radius: 0.5rem;
+    margin-left: auto;
+    width: 10rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .search-form {
+        width: 75%;
+    }
+
+    .region-filter {
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
 }
